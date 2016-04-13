@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     max-width: 1600px;
     margin-top: -40px;
 }
@@ -21,8 +21,8 @@ header {
     border-bottom: solid 3px #f7af00;
 }
 
-img {
-    width: 20%;
+header img {
+    width: 18%;
     display: block;
     margin: auto;
 }
@@ -43,4 +43,26 @@ header p {
     font-style: italic;
     color: white;
     margin-top: -25px;
+}
+
+main {
+    border-top: solid 3px #9c4d8c;
+}
+
+article {
+    float: right;
+    width: 70%;
+    padding: 1.8em;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    padding: 1.8em;
+    background-color: #ededed;
+}
+
+h2,
+h3 {
+    color: #263b52;
 }
