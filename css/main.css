@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1600px;
+    margin-top: -40px;
+}
+
+header {
+    width: 100%;
+    background-color: #3b3a3a;
+    padding: 0.5em;
+    border-bottom: solid 3px #f7af00;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+header p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    margin-top: -25px;
+}
