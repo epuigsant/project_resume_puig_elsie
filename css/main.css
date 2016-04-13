@@ -57,6 +57,8 @@ article {
 
 article p {
     width: 550px;
+    font-style: italic;
+    margin-top: -16px;
 }
 
 aside {
@@ -86,4 +88,23 @@ aside img {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+
+.degree {
+    font-weight: 600;
+    color: #263b52;
+}
+
+.university {
+    font-weight: 100;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 950px) {
+    .one-of-two {
+        width: 100%;
+    }
 }
