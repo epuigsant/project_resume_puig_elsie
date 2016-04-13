@@ -55,6 +55,10 @@ article {
     padding: 1.8em;
 }
 
+article p {
+    width: 550px;
+}
+
 aside {
     float: left;
     width: 30%;
@@ -65,4 +69,21 @@ aside {
 h2,
 h3 {
     color: #263b52;
+}
+
+aside img {
+    width: 18%;
+    display: block;
+    margin: auto;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
