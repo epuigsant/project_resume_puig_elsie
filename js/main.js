@@ -23,3 +23,9 @@ $( function() {
             'to see recent updates on my progress. </p>'
         } );
     } );
+
+//Custom JQuery functionality
+
+$( "button" ).click(function() {
+  $( "p" ).show( "slow" );
+});

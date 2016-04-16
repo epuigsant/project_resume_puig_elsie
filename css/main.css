@@ -127,3 +127,16 @@ footer {
     color: white;
     font-size: 20px;
 }
+button {
+    width: 120px;
+    height: 55px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    background-color: #9c4d8c;
+    color: white;
+}
+
+#reveal p {
+    display: none;
+    font-size: 40px;
+}
