@@ -7,11 +7,12 @@
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/tooltipster.css">
+    <link rel="stylesheet" href="css/avgrund.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic" rel='stylesheet' type='text/css'>
 
 </head>
-<body>
+<body class="container">
 
 <header>
     <h1>Elsie Puig Resume</h1>
@@ -49,7 +50,10 @@
         </ul>
     </article>
     <aside class="one-of-two">
-        <img src="img/technology.png" alt="tech icon">
+        <div class="popup">
+            <a href="#" id="show"><img src="img/technology.png" alt="tech icon"></a>
+        </div>
+        <p>See that fancy computer icon above? Click it!</p>
         <h2 class="visuallyhidden">Additional Information</h2>
         <section>
             <h3>Education</h3>
@@ -85,7 +89,7 @@
     </aside>
 </main>
 <footer>
-    <p>Need help on a project? Give me a call!</p>
+        <p>Need help on a project? Give me a call!</p>
 </footer>
 
     <script src="js/jquery-2.2.3.min.js"></script>

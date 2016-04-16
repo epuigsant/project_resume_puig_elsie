@@ -14,6 +14,8 @@ body {
     margin-top: -40px;
 }
 
+/* HEADER */
+
 header {
     width: 100%;
     background-color: #3b3a3a;
@@ -49,6 +51,8 @@ main {
     border-top: solid 3px #9c4d8c;
 }
 
+/* MAIN ARTICLE */
+
 article {
     float: right;
     width: 70%;
@@ -72,6 +76,8 @@ h2,
 h3 {
     color: #263b52;
 }
+
+/* ASIDE INFO */
 
 aside img {
     width: 18%;
@@ -109,7 +115,7 @@ aside img {
     }
 }
 
-/* Footer */
+/* FOOTER */
 
 footer {
     clear: both;
