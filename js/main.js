@@ -26,6 +26,6 @@ $( function() {
 
 //Custom JQuery functionality
 
-$( "button" ).click(function() {
-  $( "p" ).show( "slow" );
-});
+$( 'button' ).click( function() {
+  $( 'p' ).show( 'slow' );
+} );
